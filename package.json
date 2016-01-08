@@ -1,0 +1,21 @@
+{
+  "name": "parse-connect-nodejs",
+  "version": "1.0.0",
+  "description": "Application to connect to Parse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madhukar M Mallia",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-connect-pm2": "0.0.2",
+    "hapi": "^12.0.1",
+    "node-parse-api": "^0.3.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-watch": "^4.2.0"
+  }
+}

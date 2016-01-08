@@ -1,0 +1,19 @@
+{
+	"apps": [{
+		"name": "parse-connect-dev",
+		"script": "index.js",
+    "cwd": ".",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "autorestart": true,
+    "max_restarts": 10,
+    "min_uptime": "90s",
+    "exec_mode": "fork",
+    "instances": 1,
+    "watch": false,
+    "env": {
+    	"PORT": 3030,
+    	"PARSE_APP_ID": "",
+    	"PARSE_MASTER_KEY": ""
+    }
+	}]
+}
