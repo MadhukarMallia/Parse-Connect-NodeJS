@@ -1,17 +1,14 @@
 'use strict';
 
-const Hapi = require('hapi');
+const config = require('./config/config');
 
-const server = new Hapi.Server();
-server.connection({
-	host: 'localhost',
-	port: 3030
-});
+const app = require('./config/express')(config);
 
-const config = 'hey man';
+// Start the app by listening on <port>
+app.listen(config.port);
 
-require('./routes')(server, config);
+// Expose app
+exports = module.exports = app;
 
-server.start(() => {
-  console.log('Server running at:', server.info.uri);
-});
+// Logging initialization
+console.log(`Parse Connect Server started on port ${config.port}`);
