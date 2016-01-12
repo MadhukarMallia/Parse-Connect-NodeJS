@@ -1,6 +1,6 @@
 # Parse Connect NodeJS
 
-Application to connect to the Parse JS API using NodeJS-HapiJS
+Application to connect to the Parse JS API using NodeJS-ExpressJS.
 
 ## Application Stack Details
 1. ExpressJS framework for NodeJS.
@@ -15,3 +15,11 @@ Application to connect to the Parse JS API using NodeJS-HapiJS
 3. Install PM2.
 4. Run `npm install`.
 5. Application can be started using `gulp dev-start`.
+
+## Running Tests
+
+1. Run the tests using `gulp run-test`.
+
+## JS code Beautification
+
+1. Beautify JS code using gulp task `gulp beautify`. 
