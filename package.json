@@ -2,9 +2,19 @@
   "name": "parse-connect-nodejs",
   "version": "1.0.0",
   "description": "Application to connect to Parse.",
+  "contributors": [
+    {
+      "name": "Madhukar M Mallia",
+      "email": "madhukar.mec@gmail.com"
+    }
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadhukarMallia/Parse-Connect-NodeJS"
   },
   "author": "Madhukar M Mallia",
   "license": "ISC",
