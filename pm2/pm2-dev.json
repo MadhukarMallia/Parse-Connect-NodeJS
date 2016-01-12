@@ -12,8 +12,11 @@
     "watch": false,
     "env": {
     	"PORT": 3030,
-    	"PARSE_APP_ID": "",
-    	"PARSE_MASTER_KEY": ""
+      "NODE_ENV": "development",
+      "PARSE_APP_ID": "",
+      "PARSE_MASTER_KEY": "",
+      "DB_PORT_27017_TCP_ADDR": "localhost",
+      "DB_1_NAME": "parse-connect-dev"
     }
 	}]
 }
